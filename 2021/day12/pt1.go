@@ -104,7 +104,6 @@ func traverse(cave string, pathBuffer stack, adjs map[string][]string, visited *
 			}
 		}
 	}
-	pathBuffer.pop()
 	(*visited)[cave] = false
 }
 
